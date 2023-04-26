@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discount Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #f2f2f2;
+            }
+            h2{
+                margin-left: 10px;
+            }
+            input{
+                border-radius: 50px;
+                border-color: white;
+            }
+            button{
+                background-color: rgb(14, 211, 14);
+                color:white;
+                border-radius: 20px;
+                border-color: rgb(26, 197, 26);
+                margin-left: 10px;
+                padding: 7px 40px;
+            }
+            button:hover{
+                background:burlywood;
+            }
+            #billamt{
+                margin-left: 10px;
+                margin-right: 120px;
+            }
+            #dispercent{
+                margin-left: 10px;
+                margin-right: 30px;
+            }
+            *{
+                
+                font-family: 'Itim', cursive;
+                font-size: x-large;
+            }
+            #disamt{
+                margin-left: 10px;
+            }
+            fieldset{
+                margin-right: 600px;
+                margin-top: 30px;
+                margin-left: 30px;
+                color:cadetblue;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Discount Calculator</legend>
+        <h2>DISCOUNT CALCULATOR</h2>
+        <p>Enter the Bill amount and discount in percentage</p>
+        <p>
+            <label id="billamt">Bill Amount</label>
+            <input type="number">
+        </p>
+        <p>
+            <label id="dispercent">Discount Percentage</label>
+            <input type="number">
+        </p>
+        <p>
+            <button type="button">Calculate</button>
+        </p>
+        <p id="disamt">
+            Total Discount Amount ==
+        </p>
+        </fieldset>
+    </body>
+</html>
